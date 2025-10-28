@@ -12,7 +12,6 @@ Penguin::~Penguin() { cry(); }
 void Penguin::cry() { cout << "Squawk!" << endl; }
 void Penguin::fly() { cout << "This bird can't fly." << endl; }
 
-// Eagle
 Eagle::Eagle() : Bird("Eagle") { cry(); }
 Eagle::~Eagle() { cry(); }
 void Eagle::cry() { cout << "Screech!" << endl; }
